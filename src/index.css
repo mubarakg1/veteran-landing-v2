@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --bg: #0D1117;
+  --card: #161B22;
+  --purple: #7D52B7;
+  --gold: #F8A62A;
+  --text: #FFFFFF;
+  --muted: #9CA3AF;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+}
