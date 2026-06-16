@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
@@ -21,5 +23,8 @@
     "postcss": "^8.5.14",
     "tailwindcss": "^3.4.19",
     "vite": "^6.0.5"
+  }
+  {
+    "homepage": "https://mubarakg1/veteran-landing-v2.git"
   }
 }
