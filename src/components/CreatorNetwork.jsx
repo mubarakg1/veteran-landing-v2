@@ -6,6 +6,7 @@ import brick from "../assets/logos/bricktopianlogo.jpg";
 import arcadia from "../assets/logos/arcadialogo.jpg";
 import pandora from "../assets/logos/pandoralogo.jpg";
 import kronicles from "../assets/logos/kronicleslogo.jpg";
+import yggplay from "../assets/logos/yggplay.jpg";
 
 const agencies = [
 {
@@ -32,6 +33,10 @@ logo: pandora,
 name: "Kronicles",
 logo: kronicles,
 },
+{
+name: "YGG Play",
+logo: yggplay,
+}
 ];
 
 export default function CreatorNetwork() {

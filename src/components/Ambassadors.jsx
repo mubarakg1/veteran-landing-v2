@@ -6,6 +6,7 @@ import wach from "../assets/logos/wachai.jpg";
 import edel from "../assets/logos/edellogo.jpg";
 import action from "../assets/logos/actionmodellogo.jpg";
 import wintoken from "../assets/logos/1wintokenlogo.jpg";
+import tomoland from "../assets/logos/tomolandlogo.jpg";
 
 const programs = [
 {
@@ -38,6 +39,12 @@ handle: "@AnglandX",
 logo: angland,
 url: "https://x.com/AnglandX",
 },
+{
+name: "Tomoland",
+handle: "@tomoland_app",
+logo: tomoland,
+url: "https://x.com/tomoland_app",
+}
 ];
 
 export default function Ambassadors() {
